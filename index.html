@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY Sport</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenue sur notre page de sport</h1>
+      <nav>
+        <ul>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#images">Images</a></li>
+          <li><a href="#video">Vidéo</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="articles" class="background-articles">
+        <h2>Articles de Sport</h2>
+        <article>
+          <h3>Le Football</h3>
+          <p>
+            Le football est un sport populaire dans le monde entier, connu pour
+            ses championnats passionnants.
+          </p>
+        </article>
+        <article>
+          <h3>Le Basketball</h3>
+          <p>
+            Le basketball combine rapidité et agilité, et est pratiqué sur des
+            terrains intérieurs et extérieurs.
+          </p>
+        </article>
+        <article>
+          <h3>La Course à Pied</h3>
+          <p>
+            La course à pied est un excellent moyen de rester en forme,
+            accessible à tous les niveaux.
+          </p>
+        </article>
+      </section>
+
+      <div id="images" class="background-images">
+        <h2>Galerie d'Images</h2>
+        <div class="gallery">
+          <img src="football.webp" alt="Football" />
+          <img src="basketball.webp" alt="Basketball" />
+          <img src="shoes.webp" alt="Course à pied" />
+        </div>
+      
+
+      <div id="video" class=".arrière plan.jpg">
+        <h2>Vidéo de Sport</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://pixabay.com/fr/videos/femme-corde-sport-fermer-109413/"
+          title="Vidéo de Sport"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form id="contactForm">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+        <div id="responseMessage"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Page de Sport. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

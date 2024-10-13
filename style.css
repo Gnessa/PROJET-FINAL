@@ -1,0 +1,107 @@
+@font-face {  
+    font-family: "DMSerif";  
+    src: url("fonts/DMSerifDisplay-Regular.ttf"); /* Chemin vers votre fichier de police */  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background: url('https://pixabay.com/fr/videos/femme-corde-sport-fermer-109413/') center/cover no-repeat;  
+}  
+
+header {  
+    background: #0044cc;  
+    color: rgb(255, 255, 255);  
+    padding: 1rem 0;  
+    text-align: center;  
+}  
+
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+
+main {  
+    padding: 20px;  
+}  
+
+section {  
+    margin: 20px 0;  
+    color: white;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+.background-articles {  
+    background-image: url('./arriere_plan_articles.jpg'); /* Assurez-vous que l'image est dans le bon chemin */  
+    background-size: cover;  
+    background-position: center;  
+}  
+
+.background-images {  
+    background-size: cover;  
+    background-position: center;  
+}  
+
+.background-video {  
+    background-size: cover;  
+    background-position: center;  
+}  
+
+.gallery {  
+    display: flex;  
+    justify-content: space-around;  
+    flex-wrap: wrap;  
+}  
+
+.gallery img {  
+    width: 30%;  
+    max-width: 200px;  
+    border-radius: 8px;  
+    margin-bottom: 10px;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 1rem 0;  
+    background: #0044cc;  
+    color: white;  
+}  
+
+form {  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+form label {  
+    margin: 10px 0 5px;  
+}  
+
+form input, form textarea {  
+    padding: 10px;  
+    margin-bottom: 10px;  
+}  
+
+form button {  
+    padding: 10px;  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+}  
+
+form button:hover {  
+    opacity: 0.9; /* Ajout d'un effet de survol */  
+}
